@@ -1,0 +1,19 @@
+
+
+
+<div id="get_form">
+  <div class="title">Get all Tickets</div>
+  
+  <form action="get_all_tickets" method="get">
+    <ul>
+    <li><input type="submit" value="Get All"></li>
+    % if no_email:
+    <li><input type="email" placeholder="your email address"
+      name="email" class="field" required>
+    <div class="register"><a href="https://zendeskcodingchallenge8643.zendesk.com/auth/v2/login/registration" target="_blank">Register</a>
+      so our support team can email you to solve your problem.</div>
+    </li>
+    % end
+    </ul>
+  </form>
+</div>

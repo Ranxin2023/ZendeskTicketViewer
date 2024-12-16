@@ -1,0 +1,21 @@
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/users/me.json -v -u rstli@ucdavis.edu:R@ndyli94041424
+	  
+curl https://obscura.zendesk.com/api/v2/users/me.json -v -u rstli@ucdavis.edu:R@ndyli94041424
+  
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/tickets/show_many.json?ids=1,2,3 -v -u rstli@ucdavis.edu:R@ndyli94041424
+
+curl https://zcczendeskcodingchallenge8643zendeskcodingchallenge8643.zendesk.com/api/v2/tickets.json?async=true -d '{"ticket": ... }' -H "Content-Type: application/json" -v -u rstli@ucdavis.edu:R@ndyli94041424 -X POST
+
+curl https://zcczendeskcodingchallenge8643zendeskcodingchallenge8643.zendesk.com/api/v2/tickets/update_many.json?ids=11,12,13 -d '{"ticket": {"status": "solved"}}' -H "Content-Type: application/json" -v -u rstli@ucdavis.edu:R@ndyli94041424 -X PUT
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/imports/tickets/create_many.json -v -u rstli@ucdavis.edu:R@ndyli94041424 -X POST -d @tickets.json -H "Content-Type:application/json"
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/tickets/1.json -v -u rstli@ucdavis.edu:R@ndyli94041424
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com -v -u rstli@ucdavis.edu:R@ndyli94041424 -X GET /api/v2/users/11.json
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/tickets.json -v -u rstli@ucdavis.edu:R@ndyli94041424
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/tickets/count.json -v -u rstli@ucdavis.edu:R@ndyli94041424
+
+curl https://zcczendeskcodingchallenge8643.zendesk.com/api/v2/users/rstli@ucdavis.edu/tickets/requested
